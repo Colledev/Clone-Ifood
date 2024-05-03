@@ -1,9 +1,13 @@
 import Header from "./_components/Header";
+import Search from "./_components/search";
 
 const Home = () => {
   return (
-    <div className="mx-6 bg-red-500 py-5">
+    <div>
       <Header />
+      <div className="px-5 pt-6">
+        <Search />
+      </div>
     </div>
   );
 };
